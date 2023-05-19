@@ -1,22 +1,20 @@
-﻿// Kobieta poniżej 30 lat 
+// Kobieta poniżej 30 lat 
 // Ewa lat 33
 // Niepełnoletni mężczyzna 
 
 
-using System.ComponentModel.Design;
-
 string name = "Ewa";
-int age = 33;
+int age1 = 29;
+int age2 = 33;
 string gender = "Kobieta";
 
-if (age < 30) ;
+
+if (age1 < 30)
 {
     Console.WriteLine("Kobieta poniżej 30 lat");
 }
-if (name == "Ewa" && age > 33) ;
+ if (name == "Ewa" && age2 == 33)
 {
-    Console.WriteLine("Ewa lat 33");
+    Console.WriteLine("Ewa, lat 33");
 }
-if (!(gender == "Kobieta")) ;
-else
     Console.WriteLine("niepełnoletni mężczyzna");
